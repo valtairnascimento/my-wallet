@@ -1,12 +1,12 @@
 import * as React from 'react';
-import { Container, Title, Controllers } from './styles';
+import { Container, TitleContainer, Controllers } from './styles';
 
 const ContentHeader: React.FC = () => {
   return (
     <Container>
-      <Title>
+      <TitleContainer>
         <h1>Titulo</h1>
-      </Title>
+      </TitleContainer>
 
       <Controllers>
         <button type="button">Botão A</button>

@@ -7,7 +7,7 @@ import List from './pages/List';
 import dark from './styles/themes/dark';
 import light from './styles/themes/light';
 
-const App: React.FC = () => {
+const App = () => {
   return (
     <ThemeProvider theme={dark}>
       <GlobalStyles />

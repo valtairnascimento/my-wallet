@@ -15,7 +15,7 @@ import {
   Title,
 } from './styles';
 
-const Aside: React.FC = () => {
+const Aside = () => {
   return (
     <Container>
       <Header>

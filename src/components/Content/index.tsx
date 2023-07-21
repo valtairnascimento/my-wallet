@@ -1,8 +1,12 @@
 import * as React from 'react';
 import { Container } from './styles';
 
-const Content: React.FC = ({ children }) => {
-  return <Container>{children}</Container>;
+const Content = ({ children }: any) => {
+  return (
+    <Container>
+      <div>{children}</div>
+    </Container>
+  );
 };
 
 export default Content;

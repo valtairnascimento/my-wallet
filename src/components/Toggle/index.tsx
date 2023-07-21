@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import { Container, ToggleLabel, ToggleSelector } from './styles';
 
-const Toggle: React.FC = () => (
+const Toggle = () => (
   <Container>
     <ToggleLabel>Light</ToggleLabel>
     <ToggleSelector
